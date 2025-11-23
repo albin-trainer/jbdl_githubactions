@@ -11,5 +11,11 @@ class CalculatorServiceTest {
 		CalculatorService cal=new CalculatorService();
 		assertEquals(20, cal.add(15, 5));
 	}
+	
+	@Test
+	void testDiff() {
+		CalculatorService cal=new CalculatorService();
+		assertEquals(20, cal.diff(20, 0));
+	}
 
 }

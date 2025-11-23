@@ -8,4 +8,9 @@ public class CalculatorService {
 	 return a+b;
 	 
  }
+ 
+ public int diff(int a,int b) {
+	 return a-b;
+	 
+ }
 }
